@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quiz_app.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        style="@style/linear">
+
+        <TextView
+            style="@style/sty2"
+            android:fontFamily="serif"
+            android:text="@string/funFacts" />
+
+        <TextView
+            style="@style/sty4"
+            android:text="@string/que1" />
+
+        <RadioGroup style="@style/radioGroup">
+
+            <RadioButton
+                android:id="@+id/radioOneOfOne"
+                style="@style/radioButton"
+                android:onClick="radio1"
+                android:text="@string/opt1" />
+
+            <RadioButton
+                android:id="@+id/radioTwoOfOne"
+                style="@style/radioButton"
+                android:onClick="radio1"
+                android:text="@string/opt2" />
+
+            <RadioButton
+                android:id="@+id/radioThreeOfOne"
+                style="@style/radioButton"
+                android:onClick="radio1"
+                android:text="@string/opt3" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/sty4"
+            android:text="@string/que2" />
+
+        <ImageView
+            style="@style/img1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fish" />
+
+        <RadioGroup style="@style/radioGroup">
+
+            <RadioButton
+                android:id="@+id/radioOneOfTwo"
+                style="@style/radioButton"
+                android:onClick="radio2"
+                android:text="@string/opt4" />
+
+            <RadioButton
+                android:id="@+id/radioTwoOfTwo"
+                style="@style/radioButton"
+                android:onClick="radio2"
+                android:text="@string/opt5" />
+
+            <RadioButton
+                android:id="@+id/radioThreeOfTwo"
+                style="@style/radioButton"
+                android:onClick="radio2"
+                android:text="@string/opt6" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/sty4"
+            android:text="@string/que3" />
+
+        <ImageView
+            style="@style/img2"
+            android:src="@drawable/oct" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/answer"
+                style="@style/sty3"
+                android:hint="@string/hint"
+                android:inputType="textCapWords" />
+
+            <Button
+                style="@style/textbutton"
+                android:layout_toEndOf="@id/answer"
+                android:layout_toRightOf="@id/answer"
+                android:onClick="submitAnswer1"
+                android:text="@string/ok" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/sty4"
+            android:text="@string/que4" />
+
+        <ImageView
+            android:id="@+id/image"
+            style="@style/img2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/falcon" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/bird"
+                style="@style/sty3"
+                android:hint="@string/hint"
+                android:inputType="textCapWords" />
+
+            <Button
+                style="@style/textbutton"
+                android:layout_toEndOf="@id/bird"
+                android:layout_toRightOf="@id/bird"
+                android:onClick="submitAnswer"
+                android:text="@string/ok" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/sty4"
+            android:text="@string/que5" />
+
+
+        <CheckBox
+            android:id="@+id/bear"
+            style="@style/check"
+            android:onClick="check_this"
+            android:text="@string/opt7" />
+
+        <CheckBox
+            android:id="@+id/crocodile"
+            style="@style/check"
+            android:onClick="check_this"
+            android:text="@string/opt8" />
+
+        <CheckBox
+            android:id="@+id/hamster"
+            style="@style/check"
+            android:onClick="check_this"
+            android:text="@string/opt9" />
+
+        <Button
+            android:id="@+id/check_Score"
+            style="@style/sty5"
+            android:onClick="checkScore"
+            android:text="@string/button" />
+
+    </LinearLayout>
+</ScrollView>

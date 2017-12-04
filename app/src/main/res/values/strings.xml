@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Quiz_App</string>
+    <string name="funFacts">FUN FACTS</string>
+    <string name="que1">1. Which is the biggest Animal?</string>
+    <string name="opt1">White Shark</string>
+    <string name="opt2">Elephant</string>
+    <string name="opt3">Blue Whale</string>
+    <string name="opt4">16,000</string>
+    <string name="opt5">27,000</string>
+    <string name="opt6">7,500</string>
+    <string name="que2">2. How many different species of fish are there?</string>
+    <string name="que3">3. How many legs does an Octopus have?</string>
+    <string name="que4">4. What is the name of this Bird?</string>
+    <string name="que5">5. Which among them are mammels?</string>
+    <string name="opt7">Bear</string>
+    <string name="opt8">Crocodile</string>
+    <string name="opt9">Hamster</string>
+    <string name="button">Your Score</string>
+    <string name="hint">Enter Your Answer</string>
+    <string name="ok">OK</string>
+    <string name="correct_answer">Your Answer is correct</string>
+    <string name="incrorrect_answer">Your Answer is incorrect</string>
+</resources>
